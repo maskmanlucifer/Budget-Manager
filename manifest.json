@@ -1,0 +1,24 @@
+{
+    "name": "Budget-Manager",
+    "version": "0.1",
+    "manifest_version": 2,
+    "icons":
+    {
+      "48":"icon48.png",
+      "32":"icon32.png",
+      "16":"icon16.png"
+    },
+    "description": "A simple chrome extension for managing budget.",
+    "background":
+    {
+      "scripts":["eventPage.js"],
+      "persistemt":false
+    },
+    "permissions": [ "storage","notifications","contextMenus"],
+    "options_page":"option.html",
+    "browser_action": 
+    {
+      "default_popup": "index.html",
+      "default_icon":"icon16.png"
+    }
+  }

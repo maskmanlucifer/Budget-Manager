@@ -1,0 +1,39 @@
+body{
+    background-color:coral;
+    text-align: center;
+    color:whitesmoke;
+}
+.container {
+    height: 200px;
+    position: relative;
+    border: 3px solid green;
+  }
+  
+  .vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  #savelimit
+  {
+      height: 40px;
+      width: 80px;
+      background-color: seashell;
+      position: relative;
+      margin-top: 20px;
+      font-size: 15px;
+      border-color:white;
+  }
+
+  #resettotal
+  {
+    height: 40px;
+    width: 80px;
+    font-size: 15px;
+    background-color: seashell;
+    position: relative;
+    margin-top: 20px;
+    border-color:white;
+  }

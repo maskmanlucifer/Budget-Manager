@@ -38,6 +38,16 @@ chrome.contextMenus.onClicked.addListener(function(clickdata)
                     function callback()
                     {
                         console.log("some error occured");
+                        var wikiurl="https://en.error.org/";
+                        var createdata={
+                            "url":wikiurl,
+                            "type":"popup",
+                            "top":5,
+                            "left":5,
+                            "height":screen.availHeight/2,
+                            "width":screen.availWidth/2
+                        };
+                        chrome.windows.create(createdata,function(){});
                     }
                   }
               })
